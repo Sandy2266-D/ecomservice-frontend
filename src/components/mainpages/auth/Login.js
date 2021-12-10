@@ -35,7 +35,7 @@ const loginSubmit = async e =>{
                 placeholder="password" value={user.password} onChange={onChangeInput}/>
                 <div className="row">
                     <button type="submit">Login</button> 
-                    <Link to="/register">Register</Link>
+                    {/* <Link to="/register"><button type="submit">Register</button> </Link> */}
                 </div>
             </form>
         </div>
