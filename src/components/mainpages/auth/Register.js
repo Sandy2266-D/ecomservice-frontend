@@ -26,7 +26,7 @@ const registerSubmit = async e =>{
 }
 
     return (
-        <div className="login-page">
+        <div className="register-page">
             <form onSubmit = {registerSubmit} >
                 <h2>Register</h2>
                 <input type="text" name="name" required
@@ -37,7 +37,7 @@ const registerSubmit = async e =>{
                 placeholder="password" value={user.password} onChange={onChangeInput}/>
                     <div className="row">
                         <button type="submit">Register</button>
-                        <Link to="/login">Login</Link>
+                        {/* <Link to="/login"><button type="submit">Login</button></Link> */}
                     </div>
             </form>
         </div>
