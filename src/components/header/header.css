@@ -6,17 +6,19 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
+    background-color: skyblue;
 }
 header.logo
 {
     flex: 1;
+    
 }
 
 header a 
 {
     text-transform: uppercase;
-    color: #555;
+    color: black;
 }
 
 header ul,li{
