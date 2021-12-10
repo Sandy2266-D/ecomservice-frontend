@@ -48,12 +48,12 @@ const loggedRouter= ()=>{
 
         <ul>
 
-            <li><Link to ="/">{isAdmin ? 'Products' : "Shop"}</Link></li>&nbsp;
+            <li ><Link to ="/"><strong>{isAdmin ? 'Products' : "Store"}</strong></Link></li>&nbsp;&nbsp;&nbsp;
             
             {isAdmin && adminRouter()}
             
             {
-                isLogged ? loggedRouter() : <li><Link to ="/login">Login  ✥  Register</Link></li>
+                isLogged ? loggedRouter() : <li><Link to ="/login"><b>Login</b></Link> &nbsp; <Link to="/register"> <b>Register</b></Link></li>
             }
        </ul>
 
